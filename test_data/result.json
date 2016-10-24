@@ -1,0 +1,46 @@
+{
+  "pages": {
+    "http://localhost:9000/index.html": {
+      "url": "http://localhost:9000/index.html",
+      "scraped": true,
+      "scripts": [
+        "http://cdn.google.com/a.js",
+        "http://cdn.google.com/b.js"
+      ],
+      "images": [
+        "http://a.jpg",
+        "https://localhost:9000/b.jpg"
+      ],
+      "cssLinks": [
+        "http://localhost:9000/css/a.css",
+        "http://localhost:9000/css/b.css"
+      ],
+      "internalLinks": [
+        "http://localhost:9000/index2.html"
+      ],
+      "externalLinks": [
+        "http://www.google.com"
+      ]
+    },
+    "http://localhost:9000/index2.html": {
+      "url": "http://localhost:9000/index2.html",
+      "scraped": true,
+      "scripts": [
+        "http://cdn.google.com/c.js",
+        "http://cdn.google.com/d.js"
+      ],
+      "images": [
+        "http://c.jpg",
+        "http://localhost:9000/d.jpg"
+      ],
+      "cssLinks": [
+        "http://localhost:9000/css/c.css",
+        "http://localhost:9000/css/d.css"
+      ],
+      "internalLinks": [
+        "http://localhost:9000/index3.html"
+      ],
+      "externalLinks": []
+    }
+  }
+}
